@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="Stylesheet" href="page2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="div1">
+            <img src="get.png" alt="" width="10%" id="f">
+            <h2> jobs</h2>
+        </div>
+        <div class="div2">
+            <ul>
+                <li><button><a href="">Find a Jobs</a></button></li>
+                <li><button><a href="">Post a Jobs</a></button></li>
+                <li>
+                    <div class="div3"> <img src="logo1.png" alt=""> </div>
+                    <span class="span1"></span>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="login">
+        <p><i class="fa fa-star" aria-hidden="true"></i>&nbsp;Welcom </p>
+        <p> <i class="fa fa-id-card" aria-hidden="true"></i>&nbsp;<a href="" class="manage">manage Your account</a></p>
+        <form action="" method="post">
+            <button type="submit" name="logout" style="width: 100%;background-color: transparent;color:black;">    <p id="logout" >log out &nbsp;<i class="fa fa-sign-out" aria-hidden="true"></i></p>
+</button>
+        </form>
+
+    </div>
+
+    <div class="conte">
+        <div class="conte1">
+            <h1 style="color:#228B22;">The Best Site Web For find the jobs</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, repellat.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <form action="" method="post">
+                <input type="email" name="em" id="em" placeholder="Enter Your Email"> <br> <br>
+                <input type="submit" value="Send" id="send">
+                <h6>This Step To Receive the notification </h6>
+
+            </form>
+
+        </div>
+        <div class="conte2">
+            <img src="images.png" alt="">
+        </div>
+    </div>
+    <h1>Stay at Home <span class="span2">and Get a job</span></h1>
+    <img src="png.png" alt="" id="g">
+
+    <footer>
+        <div class="foot">
+            <p>Privacy Policy</p>
+            <p class="b">Cookies</p>
+            <p class="b">EN</p>
+
+        </div>
+        <hr>
+        <p style="text-align:center;">
+            ©Signum International S.a r.l Luxembourg Luzern Branch, a company of EF Education First Group. Company reserves all rights.
+        </p>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            $(".span1").click(function() {
+                $(".login").slideToggle("slow");
+            });
+        });
+    </script>
+
+</body>
+
+</html>

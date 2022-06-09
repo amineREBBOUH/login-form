@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="page1.css">
+    <title>Document</title>
+    <style>
+        .singup {
+            color: white;
+            background-color: black;
+            width: 100%;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="SIGNIN p" id="div1">
+
+        <h1> SIGNIN </h1>
+        <hr>
+        <P style="text-align: center;">Need an account?<a onclick="create()" href="#">Create one now</a></P>
+        <input type="button" value="facebook" class="face"> <br>
+        <input type="button" value="Google" class="google"> <br>
+        <input type="button" value="Linkeed" class="link"> <br>
+        <h1>
+            <span style="color:red; text-align: center;">SIGNIN </span><br> USING YOUR EMAIL
+        </h1>
+        <hr>
+        <form action="page2/page2.html">
+            <label for="email">email</label> <br>
+            <input type="email" name="email" id="email"> <br>
+            <label for="password">password</label> <br>
+            <input type="password" name="password" id="password"><br>
+            <a href="#" class="poi"> <button type="submit" class="singup">SINGIN</button> </a><br>
+
+        </form>
+        <a href="">Reset your password</a>
+    </div>
+
+
+    <div class="register p" id="div2" style="display:none;">
+
+        <h1> <span style="color:red;">CREATE</span> YOUR ACCOUNT</h1>
+        <hr>
+        <P style="text-align: center;">Already registered?<a onclick="login();" href="#">login </a> </P>
+        <form action="page2/page2.html">
+            <label for="first">First Name</label> <br>
+            <input type="text" name="first" id="first"> <br>
+            <label for="laste">Laste Name</label> <br>
+            <input type="text" name="laste" id="laste"> <br>
+            <label for="email2">Email</label> <br>
+            <input type="email" name="email2" id="email2"> <br>
+            <label for="password2">password</label> <br>
+            <input type="password" name="password2" id="password2"><br>
+            <label for="password3">password configuration</label> <br>
+            <input type="password" name="password3" id="password3"><br>
+            <a href="#" class="poi"> <button type="submit" class="singup">SINGUP</button> </a><br>
+
+
+        </form>
+
+    </div>
+
+
+    <script src="jsk.js"></script>
+</body>
+
+</html>
